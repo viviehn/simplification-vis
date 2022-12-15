@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(layout='wide')
 
 cols = st.columns(6)
-rows = 101
+rows = 113
 
 for r in range(rows):
     for c in range(6):
