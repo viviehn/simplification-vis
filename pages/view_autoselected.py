@@ -14,3 +14,5 @@ for m_name in models:
             cols[0].image(f'autoselect/{m_name}_{exp}_orig.png')
             cols[1].image(f'autoselect/{m_name}_{exp}_select.png')
             cols[2].image(f'autoselect/{m_name}_{exp}_final.png')
+        except:
+            continue
