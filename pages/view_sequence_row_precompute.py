@@ -9,7 +9,7 @@ st.text('The first image in each row shows the original drawing, and the final i
 
 
 cols = st.columns(6)
-rows = 113
+rows = 141
 
 for r in range(rows):
     for c in range(6):
